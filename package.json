@@ -1,19 +1,21 @@
 {
-  "name": "next-ai",
-  "version": "0.1.0",
-  "private": true,
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "autoprefixer": "10.4.14",
-    "next": "13.4.1",
-    "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "autoprefixer": "^10.4.14",
+    "bcrypt": "^5.1.0",
+    "mongodb": "^5.4.0",
+    "mongoose": "^7.1.0",
+    "next-auth": "^4.22.1",
+    "tailwindcss": "^3.3.2"
   }
 }
